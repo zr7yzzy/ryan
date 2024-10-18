@@ -20,3 +20,16 @@
      width: 100%;
      text-align: center;
  }
+
+ #container{
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+ }
+
+ .cartão{
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    height: 20rem;
+ }

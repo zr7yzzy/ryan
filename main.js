@@ -1,17 +1,17 @@
 function criaCartão (categoria, pergunta, reposta) {
     let container = document.getElementById('container');
-    let cartao = document.createElement('article')
-    cartao.className = 'cartao';
-    cartao.innerHTML = `
-    <div class="conteudo-cartao">
+    let cartão = document.createElement('article')
+    cartão.className = 'cartao';
+    cartão.innerHTML = `
+    <div class="conteudo-cartão">
     <h3>${categoria}</h3>
-    <div class="pergunta-cartao">
+    <div class="pergunta-cartão">
         <p>${pergunta}</p>
     </div>
-    <div class="resposta-cartao">
+    <div class="resposta-cartão">
         <p>${reposta}</p>
     </div>
 </div>
     `
-    container.appendChild(cartao);
+    container.appendChild(cartão);
 }

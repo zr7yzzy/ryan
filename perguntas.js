@@ -1,4 +1,4 @@
-riaCartão(
+criaCartão(
     'Historia',
     'Quando acabou a primeira Guerra mundial?',
     '28 de julho de 1914 – 11 de novembro de 1918'

@@ -44,9 +44,16 @@
     padding: 40px;
     color: var(--branco);
     box-shadow: 5px 6px 25px var(--branco);
+    cursor: pointer;
  }
 
 
  .cartão:hover{
     transform: scale(1.04);
+ }
+
+ .resposta-cartão{
+    background-color: var(--preto);
+    padding: 40px;
+    display: none;
  }

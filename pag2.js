@@ -3,7 +3,7 @@ function criaCartão (categoria, pergunta, reposta) {
     let cartão = document.createElement('article')
     cartão.className = 'cartão';
     cartão.innerHTML = `
-    <div class="conteudo-cartão">
+    <div class="conteudo-cartão" onclick="mostrarRespostas(this)">
     <h3>${categoria}</h3>
     <div class="pergunta-cartão">
         <p>${pergunta}</p>
@@ -14,4 +14,16 @@ function criaCartão (categoria, pergunta, reposta) {
 </div>
     `
     container.appendChild(cartão);
+}
+
+function mostrarRespota(card){
+    const reposta = card.querySelector('.resposta.cartão');
+    if(reposta.style.display === 'none'){
+        reposta.style.display = 'block'
+
+    }
+    else{
+        reposta.style.display = 'none'
+
+    }
 }

@@ -11,6 +11,13 @@
      background-color: var(--fundo);
      margin: 0;
  }
+
+ header{
+   background-color: var(--preto);
+   display: flex;
+   justify-content: space-around;
+   padding: 2rem;
+ }
  
  footer{
      background-color: var(--preto);

@@ -3,7 +3,7 @@ function criaCartão (categoria, pergunta, reposta) {
     let cartão = document.createElement('article')
     cartão.className = 'cartão';
     cartão.innerHTML = `
-    <div class="conteudo-cartão" onclick="mostrarRespotas(this)">
+    <div class="conteudo-cartão" onclick="mostrarRespota(this)">
     <h3>${categoria}</h3>
     <div class="pergunta-cartão">
         <p>${pergunta}</p>

@@ -14,7 +14,7 @@ function criaCartão (categoria, pergunta, reposta) {
 </div>
     `
 
-    let respostaEstainvisivel=false;
+    let respostaEstavisivel=false;
 
   function viraCartão(){
         respostaEstavisivel = !respostaEstavisivel;

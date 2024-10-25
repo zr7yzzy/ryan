@@ -17,11 +17,11 @@ function criaCartão (categoria, pergunta, reposta) {
   let respostaEstainvisivel=false;
 
   function viraCartão(){
-        respostaEstavisivel = !respostaEstavisivel
+        respostaEstavisivel = !respostaEstavisivel;
         cartão.classList.toggle('active', respostaEstavisivel);
   }
 
-  cartão.addEventListener('click', viraCartão)
+  cartão.addEventListener('click', viraCartão);
 
 
     container.appendChild(cartão);

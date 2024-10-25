@@ -62,7 +62,7 @@
     font-size: 1.4vw;
  }
 
- .cartão:hover .conteudo-cartão{
+ .cartão.active .conteudo-cartão{
     transform: rotateY(180deg);
  }
 

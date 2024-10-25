@@ -13,5 +13,16 @@ function criaCartão (categoria, pergunta, reposta) {
     </div>
 </div>
     `
+
+  let respostaEstainvisivel=false;
+
+  function viraCartão(){
+        respostaEstavisivel = !respostaEstavisivel
+        cartão.classList.toggle('active', respostaEstavisivel);
+  }
+
+  cartão.addEventListener('click', viraCartão)
+
+
     container.appendChild(cartão);
 }

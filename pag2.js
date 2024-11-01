@@ -17,7 +17,7 @@ function criaCartão (categoria, pergunta, reposta) {
 }
 
 function mostrarRespota(card){
-    const reposta = card.querySelector('.resposta.cartão');
+    const reposta = card.querySelector('.resposta-cartão');
     if(reposta.style.display === 'none'){
         reposta.style.display = 'block'
 

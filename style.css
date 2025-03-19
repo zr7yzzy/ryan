@@ -40,56 +40,5 @@
     flex-wrap: wrap;
  }
 
- .cartão{
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
-    height: 20rem;
- }
-
- .conteudo-cartão{
-    background-color: var(--frente-cartão);
-    text-align: center;
-    height: 100%;
-    color: var(--branco);
-    transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
- }
-
-
- .conteudo-cartão h3{
-    position: absolute;
-    text-align: left;
-    color: var(--destaque);
-    border: 1px solid var(--destaque);
-    border-radius: 6rem;
-    padding: 0.6rem;
-    margin: 0.6rem;
-    font-size: 1vw;
-    backface-visibility: hidden;
- }
-
- .conteudo-cartão p{
-    margin-top: 5rem;
-    padding: 2rem;
-    font-size: 1.4vw;
- }
-
- .cartão.active .conteudo-cartão{
-    transform: rotateY(180deg);
- }
-
- .pergunta-cartão, .resposta-cartão{
-   backface-visibility: hidden;
-   position: absolute;
-   height: 100%;
-   width: 100%;
- }
-
- .resposta-cartão{
-   transform: rotateY(180deg);
-   background-color: var(--verso-cartão);
-   color: var(--destaque);
-   border: 2px solid var(--destaque);
- }
-
+ 
 

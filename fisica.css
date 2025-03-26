@@ -29,6 +29,9 @@
      width: 100%;
      text-align: center;
  }
- 
+ main{
+    display: flex;
+    border-image-width:auto;
+ }
 
  
